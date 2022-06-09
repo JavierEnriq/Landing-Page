@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    background-color: ;
+    justify-content: space-between;
+}
+
+.head{
+list-style-type: none;
+display: flex;
+gap: 8px;
+
+}
+li{
+    text-decoration: none;
+}
