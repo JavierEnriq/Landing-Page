@@ -1,15 +1,31 @@
+body{
+    background-color: #1f2937;
+}
+
+
 .header{
     display: flex;
-    background-color: ;
+    background-color: #1f2937;
     justify-content: space-between;
+    margin-left: 42px;
+    align-items: center;
+    padding: 0px;
+}
+
+.logo{
+    font-size: 24px;
+    color:#f9faf8;
+    font-family: roboto;
 }
 
 .head{
 list-style-type: none;
 display: flex;
 gap: 8px;
-
+font-size: 18px;
+color: #e5e7eb;
 }
-li{
+a{
+    color:#e5e7eb;
     text-decoration: none;
 }
