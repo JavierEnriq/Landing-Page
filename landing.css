@@ -1,23 +1,22 @@
 body{
     background-color: #1f2937;
+    font-family: Roboto, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-
 
 .header{
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
-    margin-left: 42px;
     align-items: center;
     padding: 0px;
 }
-
 .logo{
     font-size: 24px;
     color:#f9faf8;
     font-family: roboto;
 }
-
 .head{
 list-style-type: none;
 display: flex;
@@ -28,4 +27,55 @@ color: #e5e7eb;
 a{
     color:#e5e7eb;
     text-decoration: none;
+}
+.hero{
+display: flex;
+width: fit-content;
+margin-top: 42px;
+justify-content: space-between;
+height: 300px;
+}
+
+.main{
+display: flex;
+flex-shrink: 0;
+max-width: 50%;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+}
+.franchise{
+    display: flex;
+    font-size: 48px;
+    font-weight: 800;
+    align-content: center;
+    justify-content: space-evenly;
+    color: #f9faf8;
+}
+.content{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 10px;
+    justify-content: flex-start;
+    flex-grow:;
+}
+.realh1{
+max-width: 50%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #e5e7eb;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border:0px;
+    font-size: 18px;
 }
