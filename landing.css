@@ -132,3 +132,27 @@ flex-wrap: wrap;
 .tcontent{
     width: 200px;
 }
+.container3{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.quotes{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    width: 100%;
+}
+.carole{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
