@@ -1,8 +1,7 @@
 body{
     background-color: #1f2937;
     font-family: Roboto, sans-serif;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0px;
 }
 
 .header{
@@ -11,6 +10,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .logo{
     font-size: 24px;
@@ -31,9 +32,12 @@ a{
 .hero{
 display: flex;
 width: fit-content;
-margin-top: 42px;
+margin-top: 25vh;
 justify-content: space-between;
-height: 300px;
+height: 50vh;
+padding-bottom: 15vh;
+margin-left: 50px;
+margin-right: 50px;
 }
 
 .main{
@@ -78,4 +82,53 @@ flex-wrap: wrap;
     padding-bottom: 2px;
     border:0px;
     font-size: 18px;
+}
+.cto{
+    display:flex;
+    height:;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.title2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 16px;
+}
+.container2{
+    display: flex;
+    flex: 1 1 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    column-gap: 52px;
+    margin-top:;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.thumb{
+    display: flex;
+    max-width: 200px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbs{
+    display: flex;
+    max-width: 200px;
+    flex: 1 1 200px;
+    align-items: center;
+    margin: 0;
+    border-color: #5a23a5;
+    border-width: 4px;
+    border-radius: 12px;
+    border-style: solid;
+}
+.tcontent{
+    width: 200px;
 }
