@@ -199,3 +199,16 @@ p{
     margin: 0;
     color: white;
 }
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+
+.foots {
+    flex: 1 1 auto;
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    color: white;
+}
+      
