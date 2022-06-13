@@ -85,11 +85,12 @@ flex-wrap: wrap;
 }
 .cto{
     display:flex;
-    height:;
+    height: 450px;
     background-color: white;
     width: 100%;
     flex-direction: column;
     align-items: center;
+    height: fit-content;
 }
 .title2{
     font-size: 36px;
@@ -107,6 +108,8 @@ flex-wrap: wrap;
     margin-top:;
     padding-top: 50px;
     padding-bottom: 50px;
+    width: 75%;
+    row-gap: 30px;
 }
 .thumb{
     display: flex;
@@ -137,12 +140,14 @@ flex-wrap: wrap;
     background-color: #e5e7eb;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    justify-content: center;
+    height: 400px;
 }
 .quotes{
     display: flex;
     width: 75%;
     flex-direction: column;
+    padding: 50px;
 }
 .quote{
     font-size: 36px;
